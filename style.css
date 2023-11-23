@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.big-header{
+    display: flex;
+    flex-direction: row;
+    /* height: 100vh; */
+    background-color: antiquewhite;
+   
+}
+
+.head{
+    align-self: baseline;
+    /* height: 64px; */
+    background-color: plum;
+    flex:1;
+}
+.content{
+    align-self: baseline;
+   /* height: 90vh; */
+   flex: 1px;
+}
+
+.foot{
+    align-self: baseline;
+    /* height: 64px; */
+    background-color: plum;
+    flex:1px
+    
+}
