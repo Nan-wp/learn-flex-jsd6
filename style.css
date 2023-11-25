@@ -1,11 +1,27 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins:wght@100&family=Shrikhand&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    font-size: 40px;
+    font-weight: 400;
+    background-color:#643843;
+    font-family: 'Shrikhand', serif;
+    color: #B799FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+input{
+    width: 300px;   
+}
+
 
 .home{
     display: flex;
@@ -26,6 +42,10 @@
     padding: 0px 10px;
     width: 100%;
   }
+  .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 @media only screen and (max-width: 1024px) {
     /* For Teplet: */
@@ -36,28 +56,26 @@
     padding: 0px 10px;
     width: 100%;
   }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
 }
 
 .navbar{
     display:flex;
-    background-color:#B0A695;
+    background-color:#99627A;
     font-family: 'Shrikhand', serif;
     font-size: larger;
     font-weight: 600;
+    
+
 }
 
 li{
     list-style: none;
 
-}
-    
-h1{
-    font-size: 40px;
-    font-weight: 600;
-    padding: 10px;
-    background-color: #776B5D;
-    font-family: 'Shrikhand', serif;
-    color: rgb(16, 4, 4);
 }
 
 .filter{
@@ -65,27 +83,32 @@ h1{
     justify-content: flex-end;
     width: 100%;
     padding: 10px;
-    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    background-color: #EBE3D5;
+    background-color:#99627A;
+    color:#3c367d;
 }
 .bearpic{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 40px;
-    background-color: #F3EEEA;
+    background-color: #E7CBCB;
     flex-wrap: wrap;
     gap: 10px;
 }
 .bearpic-container{
     text-align: center;
-    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: larger;
-    font-weight: 600;
-    color:rgb(101, 75, 42);
+    color:#655DBB;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 80px whitesmoke;
+
 }
 img {
     width: 300px;
     height: 300px;
 }
+
