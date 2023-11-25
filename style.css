@@ -1,61 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Shrikhand&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@media only screen and (min-width: 600px) {
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
     /* For mobile phones: */
        .home{
     display: flex;
     align-items: center;
-    height: 6vh;
+    flex-direction: column;
+    padding: 0px 10px;
     width: 100%;
   }
 }
-.navbar{
-    display:flex;
-    justify-content: center;
-    background-color: rgb(132, 128, 116);
-}
-.home{
+@media only screen and (max-width: 1024px) {
+    /* For Teplet: */
+       .home{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 6vh;
+    justify-content: center;
+    padding: 0px 10px;
     width: 100%;
+  }
+}
+
+.navbar{
+    display:flex;
+    background-color:#B0A695;
+    font-family: 'Shrikhand', serif;
+    font-size: larger;
+    font-weight: 600;
 }
 
 li{
     list-style: none;
+
 }
     
 h1{
     font-size: 40px;
     font-weight: 600;
     padding: 10px;
-    background-color: bisque;
+    background-color: #776B5D;
+    font-family: 'Shrikhand', serif;
+    color: rgb(16, 4, 4);
 }
+
 .filter{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    /* background-color: blueviolet; */
     padding: 10px;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 600;
+    background-color: #EBE3D5;
 }
 .bearpic{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 40px;
-    background-color: blanchedalmond;
+    background-color: #F3EEEA;
     flex-wrap: wrap;
     gap: 10px;
 }
 .bearpic-container{
     text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    color:rgb(101, 75, 42);
 }
-img{
+img {
     width: 300px;
     height: 300px;
 }
