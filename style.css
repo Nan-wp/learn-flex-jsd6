@@ -12,7 +12,7 @@
     font-weight: 400;
     background-color:#643843;
     font-family: 'Shrikhand', serif;
-    color: #B799FF;
+    color:#451952;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,7 +90,7 @@ li{
 }
 .bearpic{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     width: 100%;
     padding: 40px;
     background-color: #E7CBCB;
@@ -108,7 +108,12 @@ li{
 
 }
 img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
+.bearpic-container:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+    box-shadow: 7px 7px 100px rgb(20, 20, 20);
+}
